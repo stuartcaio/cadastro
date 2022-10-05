@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 99vh;
+
+    background-color: blue;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+
+    width: 15%;
+
+    background-color: white;
+
+    padding: 5rem;
+
+    border-style: none;
+    border-radius: 10px;
+}
+
+.formulario__titulo{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.formulario__input{
+    padding: 0.5rem;
+
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.formulario__botao{
+    align-self: center;
+
+    margin-top: 2rem;
+
+    padding: 0.5rem;
+
+    background-color: blue;
+    color: white;
+
+    width: 50%;
+
+    border-style: none;
+    border-radius: 2.5px;
+}
